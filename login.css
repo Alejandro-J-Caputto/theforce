@@ -7,9 +7,9 @@ h1 {
     
 }
 #inputEmail, #inputPassword {
-    border-radius: 5px;
-    height: 35px;
-    width: 230px;
+ 
+    /* height: 35px;
+    width: 230px; */
 }
 #inputCheckbox {
     height: 15px;
