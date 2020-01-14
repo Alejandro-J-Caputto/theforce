@@ -1,7 +1,5 @@
-body {
-
-    font-family: Arial, Helvetica, sans-serif;
-}
-.color1 {
-    background-color: #347474;
+.formulario1{
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
 }
