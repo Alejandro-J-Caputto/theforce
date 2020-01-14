@@ -13,42 +13,141 @@
   <body class="">
       <!-- encabezado de Vader -->
       <div class="">
-            <div class="container-fluid text-center pt-5 bg-light ">
+            <div class="container-fluid text-center pt-5 pb-3 bg-light ">
                 <img src="images/darth-vader.jpg"  class="rounded-circle" width="300px" alt="lo siento">
                     <h1 class="Display-2 text-info pt-5"> Formulario de pago</h1>
             <div class="container color1">
                 <p class="lead pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quod recusandae laboriosam corrupti saepe temporibus quasi vel quam nostrum, voluptatem pariatur expedita. Hic dolore ipsum eos eaque animi officia ea placeat tempora quo inventore, possimus nihil odio corporis maiores blanditiis.
 
-                </p></div> 
+                </p></div>
              </div>
         </div>
     <!-- encabezado de Vader  -->
 
     <!-- formulario  -->
-    <div class="container ">
-        <div class="row"> 
-            <div class="col-6 col-md-3" >
-            <form>
-                <div class="form-group-sm">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-            </form> 
-            <div class="col-6 col-md-3">
+    <div class="container-fluid bg-light ">
+
+
+    <div class="container bg-light ">
+        <div class="row">
+            <div class="col-6 col-md-5" >
                 <form>
-                    <div class="form-group-sm">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="name">Nombre</label>
+                        <input type="name" class="form-control" id="name" placeholder="">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="Last Name">Last Name</label>
+                        <input type="name" class="form-control"  placeholder="">
+                      </div>
                     </div>
-                </form>  
+                    <div class="form-group">
+                        <div class="col-md-12 p-0">
+                            <label for="validationTooltipUsername">Username</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                              </div>
+                              <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                              <div class="invalid-tooltip">
+                                Please choose a unique and valid username.
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmail14">Email</label>
+                      <input type="email" class="form-control" id="inputEmail14" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Address</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2 <span class="text-muted"> (Optional) </span></label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment or suite">
+                      </div>
+
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                      <label for="inputState">State</label>
+                      <select id="inputState" class="form-control custom-select">
+                        <option>Choose...</option>
+                        <option>...</option>
+                      </select>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control custom-select">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="container pt-3 pb-3 mb-4 border-top border-bottom">
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Shipping address inthe same as my billing addres</label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Save this information for next time</label>
+                          </div>
+
+
+                    </div>
+
+                    <!-- container payment -->
+
+                    <div class="container ">
+                        <div><h3> Payment</h3></div>
+
+                        
+                    </div>
+
+
+
+
+
+
+                    <button type="submit" class=" container btn btn-primary">Sign in</button>
+                  </form>
 
             </div>
         </div>
-    </div>
-       
-    </div>
+<!-- fin del formulario -->
 
-   
+    </div>
+</div>
+
+<!-- comienza el footer -->
+    <div class="container">
+        <footer class="container pb-5 pt-5 mt-5 text-center ">
+
+    <p> LICENCIA Y DERECHOS </p>
+     
+
+
+</footer>
+</div>
+
+    
+
+
 
 
 
