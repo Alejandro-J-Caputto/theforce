@@ -8,15 +8,229 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="index.css">
     <title>La web de la Fuerza</title>
   </head>
-  <body>
-      
+  <body class="bg-light">
+      <!-- encabezado de Vader -->
+      <div class="">
+            <div class="container-fluid text-center pt-5 pb-3 bg-light ">
+                <img src="images/darth-vader.jpg"  class="rounded-circle" width="300px" alt="lo siento">
+                    <h1 class="Display-2 text-info pt-5"> Formulario de pago</h1>
+            <div class="container color1">
+                <p class="lead pb-5">UNETE A MI EN EL LADO OSCURO... ... Probablemente soy tu Padree!!!!!
+                </p></div>
+             </div>
+        </div>
+    <!-- encabezado de Vader  -->
+
+    <!-- formulario  -->
+    <div class="container-fluid bg-light ">
+
+
+    <div class="container bg-light ">
+        <div class="row">
+            
+            <div class="col-6 col-md-7" >
+                <span class="lead">Billing address</span>
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="name">Nombre</label>
+                        <input type="name" class="form-control" id="name" placeholder="">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="Last Name">Last Name</label>
+                        <input type="name" class="form-control"  placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12 p-0">
+                            <label for="validationTooltipUsername">Username</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                              </div>
+                              <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                              <div class="invalid-tooltip">
+                                Please choose a unique and valid username.
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmail14">Email</label>
+                      <input type="email" class="form-control" id="inputEmail14" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Address</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2 <span class="text-muted"> (Optional) </span></label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment or suite">
+                      </div>
+
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                      <label for="inputState">State</label>
+                      <select id="inputState" class="form-control custom-select">
+                        <option>Choose...</option>
+                        <option>...</option>
+                      </select>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control custom-select">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                 
+                    <div class="container pt-3 pb-3 mb-4 border-top border-bottom">
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Shipping address inthe same as my billing addres</label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Save this information for next time</label>
+                          </div>
+
+
+                    </div>
+
+                    <!-- container payment -->
+
+                    <div class="container bg-light ">
+                        <div>
+                            <h3> Payment</h3>
+                        </div>
+                        <div class="container p-2 m-2">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">Credit card</label>
+                              </div>
+                              <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Debit card</label>
+                              </div>
+                              <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Paypal</label>
+                              </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="name">Name on card</label>
+                              <input type="name" class="form-control" id="name" placeholder="">
+                              <span class="text-muted">Full name as displayed on card</span>
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="Last Name">Credit card number</label>
+                              <input type="name" class="form-control"  placeholder="">
+                            </div>
+                          </div>
+                          <div class="form-row"><div class="form-group col-md-3">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                          </div>
+                          <div class="form-group col-md-3">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                          </div></div>
+                          
+
+                    </div>
 
 
 
 
-   
+                    <div class="container bg-light mb-5">   
+                        <button type="submit" class=" container btn btn-primary">Sign in</button>
+                    </div>
+                 
+                  </form>
+
+            </div>
+            <div class="col-md-5 ">
+                
+                    <div class="container d-flex justify-content-between pb-4">
+                        <span class=" lead text-muted"> 
+                        Your Cart 
+                    </span>
+                    <span class="badge badge-pill badge-dark   dan">                       3
+    
+                                    </span>
+                    </div>
+                    <div class="container">
+                        <ul class="list-group">
+                            <div class="row"></div>
+                        <li class="list-group-item">
+                            <div class="container-fluid d-flex justify-content-between">Product name 
+                                <span class=""> €12</span>
+                            </div> 
+                            <p class="text-muted ml-2"> Brief description</p>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="container-fluid d-flex justify-content-between">Second Product 
+                                <span class=""> €12</span>
+                            </div> 
+                            <p class="text-muted ml-2"> Brief description</p>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="container-fluid d-flex justify-content-between">Third item 
+                                <span class=""> €12</span>
+                            </div> 
+                            <p class="text-muted ml-2"> Brief description</p>
+                        </li>
+                        <li class="list-group-item text-info">
+                            <div class="container-fluid d-flex justify-content-between">Promo code 
+                                <span class=""> €12</span>
+                            </div> 
+                            <p class="text-info ml-2"> Brief description</p>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="container-fluid d-flex justify-content-between">Total (USD)
+                                <span class=""><b>€12</b> </span>
+                            </div> 
+                            <p class="text-muted ml-2"></p>
+                        </li>
+                      </ul>
+                    </div>
+                    
+                
+                
+            </div>
+        </div>
+<!-- fin del formulario -->
+
+    </div>
+</div>
+
+<!-- comienza el footer -->
+    <div class="container-fluid bg-light">
+        <footer class="container pb-5 pt-5 mt-5 text-center ">
+
+    <p> 2017-2018 La FUERZA TE INVADE </p>
+    <div>
+        <a href="">Privacy</a>
+        <a href=""> Terms</a>
+        <a href="">Support</a>
+    </div>
+     
+
+
+</footer>
+</div>
+
+    
 
 
 
