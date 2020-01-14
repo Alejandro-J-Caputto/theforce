@@ -1,0 +1,30 @@
+
+form {
+    margin-top: 40px;
+}
+h1 {
+    font-size: 25px;
+    
+}
+
+
+#inputCheckbox {
+    height: 15px;
+    width: 15px;
+}
+
+.record {
+    font-size: 16px;
+
+}
+.boton-signin {
+    border: 2px solid black;
+    color: black;
+}
+.boton-signin:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    transition: 2s ease;
+    transform: rotate(360deg);
+}
