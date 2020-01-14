@@ -1,9 +1,10 @@
+
 form {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 h1 {
     font-size: 25px;
-    color: #563d7c;
+    
 }
 #inputEmail, #inputPassword {
     border-radius: 5px;
@@ -17,13 +18,16 @@ h1 {
 
 .record {
     font-size: 16px;
+
 }
 .boton-signin {
-    border: 2px solid #563d7c;
-    color: #563d7c;
+    border: 2px solid black;
+    color: black;
 }
 .boton-signin:hover {
     color: white;
-    background-color: #563d7c;
-    border: 2px solid #563d7c;
+    background-color: black;
+    border: 2px solid black;
+    transition: 2s ease;
+    transform: rotate(360deg);
 }
